@@ -1,0 +1,115 @@
+React Component Library Generator
+Objective
+Analyze the provided website and extract reusable UI elements to create a comprehensive library of React starter components.
+And save them in the file "C:\Users\INGENIERO RAMON\Documents\Git and GitHub Works\Copying Sites to REACT\Site01\JoshCraft_ReactComponents\src\components" of the current project
+Input Required
+* Website URL: https://joshforboston.com/
+* Component Scope (optional): Specify particular sections or component types to focus on
+Analysis Instructions
+1. Website Exploration
+* Examine the entire website structure, including: 
+o Homepage and key landing pages
+o Navigation patterns
+o Content sections
+o Interactive elements
+o Form components
+o Media presentations
+2. Component Identification
+Identify and categorize components based on:
+Layout Components:
+* Headers/Navigation bars
+* Footers
+* Sidebars
+* Grid systems
+* Container layouts
+UI Elements:
+* Buttons (primary, secondary, CTA variants)
+* Cards and panels
+* Modal dialogs
+* Tooltips and popover elements
+* Badges and tags
+Form Components:
+* Input fields (text, email, password)
+* Select dropdowns
+* Checkboxes and radio buttons
+* Form validation elements
+* Search bars
+Content Components:
+* Hero sections
+* Feature showcases
+* Testimonial blocks
+* Gallery/carousel elements
+* Blog post cards
+* Pricing tables
+Interactive Elements:
+* Tabs and accordions
+* Progress indicators
+* Loading states
+* Notification banners
+3. Component Specifications
+For each identified component, provide:
+1. Component Name: Clear, descriptive name following React conventions
+2. Props Interface: Define expected props with types and default values
+3. Styling Approach: Try using Tailwind CSS to style the components roughly like the website's.
+4. Accessibility Features: ARIA labels, keyboard navigation, screen reader support
+5. Responsive Behavior: Mobile-first responsive considerations
+6. State Management: Any internal state requirements
+7. Dependencies: External libraries or hooks needed
+4. Implementation Details
+Code Structure:
+* Use TypeScript interfaces for props
+* Include JSDoc comments for documentation
+* Implement proper error handling
+* Follow React best practices (hooks, functional components)
+Styling Guidelines:
+* Maintain design system consistency
+* Use CSS custom properties for theming
+* Ensure cross-browser compatibility
+* Optimize for performance
+5. Deliverable Format
+For each component, provide:
+// Component interface
+interface ComponentNameProps {
+  // Props definition
+}
+
+// Component implementation
+const ComponentName: React.FC<ComponentNameProps> = ({ ...props }) => {
+  // Component logic
+  return (
+    // JSX structure
+  );
+};
+
+// Usage example
+const ExampleUsage = () => (
+  <ComponentName 
+    prop1="value1"
+    prop2={value2}
+  />
+);
+Additional Documentation:
+* Component overview and use cases
+* Prop descriptions and examples
+* Styling customization options
+* Integration guidelines
+Quality Criteria
+* Reusability: Components should be flexible and configurable
+* Consistency: Maintain visual and behavioral consistency across components
+* Performance: Optimize for rendering efficiency and bundle size
+* Maintainability: Write clean, documented, and testable code
+* Accessibility: Ensure WCAG 2.1 AA compliance
+* Responsive: Support various screen sizes and devices
+Output Priority
+Focus on the most commonly used and visually distinctive components first:
+1. Navigation and header components
+2. Button and form elements
+3. Card and content blocks
+4. Modal and overlay components
+5. Specialized interactive elements
+Success Metrics
+* Components are easily integrable into new projects
+* Design consistency is maintained across all components
+* Code is well-documented and follows best practices
+* Components are accessible and responsive by default
+

@@ -1,0 +1,13 @@
+Act like an expert prompt engineer and improve this prompt:
+
+Context:
+The goal is to create a library of starter components for React JS, based on an existing website. The website URL is provided.
+
+TASK:
+From there, extract some elements that can be packaged as React JS components.
+
+Act like an expert prompt engineer and improve this prompt:
+TASK:
+Crea un proyecto de REAACT js con vite, llamalo JoshCraft_ReactComponents
+
+
